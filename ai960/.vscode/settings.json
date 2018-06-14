@@ -1,7 +1,0 @@
-{
-    "tslint.configFile": "./.vscode/tslint.json",
-    "tslint.exclude": "**/node_modules/**",
-    "prettier.tabWidth": 4,
-    "prettier.jsxBracketSameLine": true,
-    "javascript.preferences.quoteStyle": "double"
-}

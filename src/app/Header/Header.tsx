@@ -5,8 +5,8 @@ export class Header extends React.Component<{}, {}> {
   render() {
     return (
       <div className="bg-dark">
-        <h1 className="d-inline text-light">AI960</h1>
-        <p className="d-inline text-light">v0.0.1</p>
+        <h1 className="d-inline text-light pl-2">AI960</h1>
+        <p className="d-inline text-light pl-1">v0.0.1</p>
       </div>
     );
   }

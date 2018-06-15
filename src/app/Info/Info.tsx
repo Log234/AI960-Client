@@ -1,12 +1,12 @@
 import * as React from 'react';
 import * as style from "./Info.css";
+import { DataLabel } from 'app/Info/DataLabel/DataLabel';
 
 export class Info extends React.Component<{}, {}> {
   render() {
     return (
       <span className={style.info}>
-        <p>Test</p>
-        <label>Test2</label>
+        <DataLabel title="Games played" data={4} />
       </span>
     );
   }

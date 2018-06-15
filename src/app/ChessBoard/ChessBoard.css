@@ -1,5 +1,6 @@
 .chessboard {
     width: 55%;
+    max-width: 760px;
     float: left;
     padding-left: 5%;
 }
